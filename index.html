@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+        <section class="seccion-productos">
+            <h2>Mis Productos:</h2>
+            <div class="cuadricula-productos" id="cuadricula-productos">
+                <div class="tarjeta-producto">
+                    <img src="https://th.bing.com/th/id/OIP.FdKts77GPBxAMQ_Z2UcU_wHaTz?rs=1&pid=ImgDetMain" alt="Stormtrooper">
+                    <h3>Stormtrooper</h3>
+                    <p>$60,00</p>
+                </div>
+                <div class="tarjeta-producto">
+                    <img src="https://th.bing.com/th/id/OSK.HERON6vlpI631iw7b0PT0FfautLgh5GH5y6KKK7WGCl7pcs?rs=1&pid=ImgDetMain" alt="Game Boy Classic">
+                    <h3>Game Boy Classic</h3>
+                    <p>$60,00</p>
+                </div>
+                <!-- Agrega más tarjetas de productos según sea necesario -->
+            </div>
+        </section>
+        <section class="seccion-agregar-producto">
+            <h2>Agregar Producto:</h2>
+            <form id="formulario-producto">
+                <input type="text" placeholder="nombre..." name="nombre" id="nombre">
+                <input type="text" placeholder="precio..." name="precio" id="precio">
+                <input type="text" placeholder="imagen..." name="imagen" id="imagen">
+                <div class="botones">
+                    <button type="button" id="enviar">Enviar</button>
+                    <button type="button" id="limpiar">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>♥♥♥ AluraGeek</p>
+        <p>Desarrollado por Martha Acosta</p>
+        <p>Alura LATAM - 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
